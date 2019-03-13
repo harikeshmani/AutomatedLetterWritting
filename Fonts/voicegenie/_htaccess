@@ -1,0 +1,4 @@
+# Add this to public_html/.htaccess file
+AddHandler application/x-httpd-php .html
+AddHandler application/x-httpd-php .htm
+

@@ -1,0 +1,159 @@
+
+body {background-color: #33D4FF;}
+
+.button1 {border-radius: 2px;}
+
+
+.navbar {
+    background-color: #33D4FF;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-header > a
+{
+font-family: 'Ubuntu Condensed', sans-serif;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 5px 30px;
+}
+.navbar-header > a:hover
+{
+text-decoration: none;
+color: #04A3ED;
+}
+
+.navbar-default > .active > a
+{
+background-color : #04A3ED;
+color: white;
+font-weight: bold;
+}
+
+.navbar-nav >  li >  a
+{
+font-size: 13px;
+color: white;
+padding:15px 35px;
+
+}
+.navbar-nav >  li >  a:hover
+{
+background-color: #04A3ED;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+
+.button{
+  width: 135px;
+  color: white;
+  background-color: #369D8D;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: transparent;
+  box-sizing: border-box;
+  padding: 0px 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 40px;
+}
+
+#note-textarea {
+    margin: 20px 0;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+}   
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+    #bsaHolder{ display:none;}
+}
